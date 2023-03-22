@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo python3 -m pip install --user ansible
 sudo amazon-linux-extras install ansible2 -y
 sudo yum install python-pip -y
 sudo pip install boto3
